@@ -1,0 +1,15 @@
+.home {
+    width: 500px;
+    margin: 0 auto;
+    
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .button {
+        width: 100%;
+        margin: 20px;
+    }
+}

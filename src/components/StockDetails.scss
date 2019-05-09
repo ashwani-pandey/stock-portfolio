@@ -1,0 +1,40 @@
+.stock-details {
+    width: 500px;
+    margin: 0 auto;
+    
+
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .basic {
+        .basic-deet {
+            display: flex;
+            justify-content: left;
+            margin: 20px;
+        }
+    }
+
+    .advanced{
+        margin-top: 60px;
+        .advanced-deet {
+            display: flex;
+            justify-content: left;
+            margin: 20px;
+        }
+    }
+
+    .buy {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        .shares-number {
+            margin: 10px;
+        }
+        .shares-decision {
+            margin: 10px;
+        }
+    }
+}

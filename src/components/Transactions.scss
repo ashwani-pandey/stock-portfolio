@@ -1,0 +1,20 @@
+.transactions {
+    width: 500px;
+    margin: 0 auto;
+    
+    .back-home{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .indieTransaction {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,49 @@
+.my-stocks {
+    width: 500px;
+    margin: 0 auto;
+    
+    .back-home{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .balance {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .indie-stock {
+        margin: 20px;
+        .indie-stock-text {
+            display: flex;
+            justify-content: center;
+        }
+        .sell {
+            display: flex;   
+            justify-content: center;
+            .shares-number {
+                margin: 10px;
+            }
+            .shares-decision {
+                margin: 10px;
+            }
+        }
+        
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .error {
+        margin-bottom: 20px;
+    }
+}
