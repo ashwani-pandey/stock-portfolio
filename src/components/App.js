@@ -7,6 +7,7 @@ import SearchContainer from "./SearchContainer";
 import StockDetails from "./StockDetails";
 import Transactions from "./Transactions";
 import MyStocks from "./MyStocks";
+import Balance from "./Balance";
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Route path="/transactions" exact component={Transactions} />
             <Route path="/myStocks" exact component={MyStocks} />
             <Route path="/stockDetails" exact component={StockDetails} />
+            <Route path="/balance" exact component={Balance} />
           </div>
         </BrowserRouter>
       </div>

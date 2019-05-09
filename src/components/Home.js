@@ -24,6 +24,11 @@ class Home extends React.Component {
             <Link to="/myStocks">My Stocks</Link>
           </button>
         </div>
+        <div>
+          <button className="ui black basic button">
+            <Link to="/balance">My Balance</Link>
+          </button>
+        </div>
       </div>
     );
   }
