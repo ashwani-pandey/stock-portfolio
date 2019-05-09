@@ -1,6 +1,6 @@
 export function searchedStocks(searchedText) {
   return fetch(
-    "https://www.x.co/query?function=SYMBOL_SEARCH&keywords=" +
+    "https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=" +
       searchedText +
       "&apikey=QEGLRCSL8D99KCIR"
   ).then(response => {
